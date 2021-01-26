@@ -57,9 +57,7 @@
    <tr>
     <th>subn</th>
       <th> 
-        <tr>
-          R[s] = R[s] - R[t];
-        </tr>
+          R[s] = R[s] - R[t]\n;
          if(R[s] - R[t] == 0) R[d] = 1;
          else if(R[s] - R[t] == 1) R[d] = 2;
          else R[d] = 3
@@ -88,11 +86,13 @@
   
    <tr>
     <th>orn</th>
-      <th>         
+      <th>
+        <pre>
          R[s] = R[s] or R[t];
          if(R[s] or R[t] == 0) R[d] = 1;
          else if(R[s] or R[t] == 1) R[d] = 2;
          else R[d] = 3
+         </pre>
       </th>
   </tr>
   
