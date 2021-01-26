@@ -47,9 +47,9 @@
    <tr>
     <th>addn</th>
     <th>
-         R[s] = R[s] + R[t]
-         if(R[s] + R[t] == 0) R[d] = 1
-         else if(R[s] + R[t] == 1) R[d] = 2
+         R[s] = R[s] + R[t];
+         if(R[s] + R[t] == 0) R[d] = 1;
+         else if(R[s] + R[t] == 1) R[d] = 2;
          else R[d] = 3
     </th>
    </tr>
@@ -57,9 +57,11 @@
    <tr>
     <th>subn</th>
       <th> 
-         R[s] = R[s] - R[t]
-         if(R[s] - R[t] == 0) R[d] = 1
-         else if(R[s] - R[t] == 1) R[d] = 2
+        <tr>
+          R[s] = R[s] - R[t];
+        </tr>
+         if(R[s] - R[t] == 0) R[d] = 1;
+         else if(R[s] - R[t] == 1) R[d] = 2;
          else R[d] = 3
       </th>
    </tr>
@@ -67,9 +69,9 @@
    <tr>
     <th>xorn</th>
       <th>         
-         R[s] = R[s] xor R[t]
-         if(R[s] xor R[t] == 0) R[d] = 1
-         else if(R[s] xor R[t] == 1) R[d] = 2
+         R[s] = R[s] xor R[t];
+         if(R[s] xor R[t] == 0) R[d] = 1;
+         else if(R[s] xor R[t] == 1) R[d] = 2;
          else R[d] = 3
       </th>
     </tr>
@@ -77,9 +79,9 @@
    <tr>
     <th>andn</th>
       <th>         
-         R[s] = R[s] and R[t]
-         if(R[s] and R[t] == 0) R[d] = 1
-         else if(R[s] and R[t] == 1) R[d] = 2
+         R[s] = R[s] and R[t];
+         if(R[s] and R[t] == 0) R[d] = 1;
+         else if(R[s] and R[t] == 1) R[d] = 2;
          else R[d] = 3
       </th>
     </tr>
@@ -87,9 +89,9 @@
    <tr>
     <th>orn</th>
       <th>         
-         R[s] = R[s] or R[t]
-         if(R[s] or R[t] == 0) R[d] = 1
-         else if(R[s] or R[t] == 1) R[d] = 2
+         R[s] = R[s] or R[t];
+         if(R[s] or R[t] == 0) R[d] = 1;
+         else if(R[s] or R[t] == 1) R[d] = 2;
          else R[d] = 3
       </th>
   </tr>
