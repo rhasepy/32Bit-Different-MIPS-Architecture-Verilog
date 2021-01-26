@@ -1,5 +1,11 @@
 # 32Bit-Different-MIPS-Architecture-Verilog
 
+<p>
+  <pre>
+    To run the processor, 
+    simply write the machine code of the instructions into the instruction file as binary.
+  </pre>
+</p>
 
 <h2>Supported Instructions</h2>
 
