@@ -11,17 +11,23 @@
   
   <tr>
     <th>lw</th>
+    <pre>
     <th>R[t] = Mem [R[s]] + signImm16]</th>
+    </pre>
    </tr>
   
    <tr>
     <th>sw</th>
+    <pre>
     <th>Mem [R[s]] + signImm16] = R[t]</th>
+    </pre>
    </tr>
   
    <tr>
     <th>j</th>
+    <pre>
     <th>PC = JumpAddress</th>
+    </pre>
    </tr>
 
    <tr>
@@ -47,40 +53,48 @@
    <tr>
     <th>addn</th>
     <th>
+      <pre>
          R[s] = R[s] + R[t];
          if(R[s] + R[t] == 0) R[d] = 1;
          else if(R[s] + R[t] == 1) R[d] = 2;
          else R[d] = 3
+         </pre>
     </th>
    </tr>
   
    <tr>
     <th>subn</th>
       <th> 
+        <pre>
           R[s] = R[s] - R[t]\n;
          if(R[s] - R[t] == 0) R[d] = 1;
          else if(R[s] - R[t] == 1) R[d] = 2;
          else R[d] = 3
+         </pre>
       </th>
    </tr>
   
    <tr>
     <th>xorn</th>
-      <th>         
+      <th>  
+        <pre>
          R[s] = R[s] xor R[t];
          if(R[s] xor R[t] == 0) R[d] = 1;
          else if(R[s] xor R[t] == 1) R[d] = 2;
          else R[d] = 3
+         </pre>
       </th>
     </tr>
     
    <tr>
     <th>andn</th>
-      <th>         
+      <th>
+        <pre>
          R[s] = R[s] and R[t];
          if(R[s] and R[t] == 0) R[d] = 1;
          else if(R[s] and R[t] == 1) R[d] = 2;
          else R[d] = 3
+         </pre>
       </th>
     </tr>
   
