@@ -11,23 +11,17 @@
   
   <tr>
     <th>lw</th>
-    <pre>
     <th>R[t] = Mem [R[s]] + signImm16]</th>
-    </pre>
    </tr>
   
    <tr>
     <th>sw</th>
-    <pre>
     <th>Mem [R[s]] + signImm16] = R[t]</th>
-    </pre>
    </tr>
   
    <tr>
     <th>j</th>
-    <pre>
     <th>PC = JumpAddress</th>
-    </pre>
    </tr>
 
    <tr>
